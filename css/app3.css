@@ -1,0 +1,271 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 621815 */
+    src: url('http://at.alicdn.com/t/font_621815_zy8yfa8wb87iudi.eot');
+    src: url('http://at.alicdn.com/t/font_621815_zy8yfa8wb87iudi.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_621815_zy8yfa8wb87iudi.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_621815_zy8yfa8wb87iudi.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_621815_zy8yfa8wb87iudi.svg#iconfont') format('svg');
+}
+
+#top{
+    width: 100%;
+    height: 1.8rem;
+    justify-content: space-around;
+    background-color: #fffef6;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99;
+}
+.top{
+    height: 0.5rem;
+    margin: 0 0.28rem;
+    /* line-height: 0.5rem; */
+
+}
+.top_dian{
+    width: 0.16rem;
+    height: 0.16rem;
+    border-radius: 0.08rem;
+    background-color: #000;
+    margin-top: 0.17rem;
+    /* display: inline-flex; */
+    float: left;
+    margin-left: 0.03rem;
+}
+.top_dian1{
+    width: 0.16rem;
+    height: 0.16rem;
+    border-radius: 0.08rem;
+    border: 0.03rem solid #000;
+    margin-top: 0.17rem;
+    /* display: inline-flex; */
+    float: left;
+    margin-left: 0.03rem;
+}
+.top h1{
+    font-family: 'iconfont';
+    font-size: 0.22rem;
+    color: #000;
+    line-height: 0.5rem;
+    margin-left: 0.15rem;
+    float: left;
+}
+.top h2{
+    font-family: 'iconfont';
+    font-size: 0.22rem;
+    color: #000;
+    line-height: 0.5rem;
+    margin-left: 1.3rem;
+    float: left;
+}
+.top h3{
+    font-family: 'iconfont';
+    font-size: 0.22rem;
+    color: #000;
+    line-height: 0.5rem;
+    margin-right: 0.3rem;
+    float: right;
+}
+.top h4{
+    font-family: 'iconfont';
+    font-size: 0.4rem;
+    color: #000;
+    line-height: 0.5rem;
+    margin-right: 0.3rem;
+    float: right
+}
+.top_head{
+    height: 1.3rem;
+    margin: 0.15rem 0.28rem;
+}
+.top_head h2{
+    font-size: 0.6rem;
+    float: left;
+    line-height: 1rem;
+    color: #000;
+}
+.top_head input{
+    width: 7.2rem;
+    height: 0.7rem;
+    background-color: #000;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    float: left;
+    margin-left: 0.5rem;
+    margin-top: 0.15rem;
+    /* overflow: hidden; */
+    background-color: #e4f2ef;
+
+    border-radius: 0.4rem;
+}
+.zhongjian {
+    font-size: 0.8rem;
+    float:left;
+    padding-left: 4rem;
+}
+.top_head span{
+    font-size: 0.5rem;
+    float: left;
+    line-height: 0.7rem;
+    color: #000;
+    margin-top: 0.15rem;
+    margin-left: 2rem;
+}
+.sao{
+    font-family: 'iconfont';
+    font-size: 0.5rem;
+    float: right;
+    line-height: 0.7rem;
+    color: #000;
+    margin-top: 0.15rem;
+    margin-right: 0.2rem;
+}
+
+
+
+
+#neirong{
+    width: 100%;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 1.8rem;
+    bottom: 1.6rem;
+    overflow-y: scroll;
+}
+.neirong::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+
+.cnxh1{
+    width:100%;
+    height: 0.6rem;
+    float: left;
+    font-size: 0.30rem;
+    text-align: center;
+    line-height: 0.6rem;
+    color: #757575;
+    margin-top: 0.01rem;
+    /* background-color: red; */
+    font-family: "微软雅黑";
+}
+.tu{
+    width: 100%;
+    height: 62rem;
+    background-color: #fff;
+    margin-top: 1rem;
+}
+.tup{
+    width: 4.9rem;
+    height: 8rem;
+    /* background-color: green; */
+    margin-top: 0.6rem;
+    float: left;
+    margin-left: 0.1rem;
+}
+.tup img{
+    display: block;
+    width: 100%;
+    height: 80%;
+}
+.tup1{
+    width: 4.9rem;
+    height: 8rem;
+    /* background-color: green; */
+    margin-top: 0.6rem;
+    float: right;
+    margin-right:0.1rem;
+}
+.tup1 img{
+    display: block;
+    width: 100%;
+    height: 80%;
+}
+.gwxz{
+    width: 4.9rem;
+    height:0.6rem;
+    /* background-color:red; */
+    font-size: 0.36rem;
+    text-align: left;
+    line-height: 0.6rem;
+    font-family: "微软雅黑";
+}
+.jiaq{
+    width: 1.3rem;
+    height: 0.38rem;
+    /* background-color: yellow; */
+    margin-top: 0.26rem;
+    font-size: 0.3rem;
+    color: #ef4526;
+    font-family: "微软雅黑";
+}
+.jiaru{
+    width: 2rem;
+    height: 0.5rem;
+    float: right;
+    background-color: #ff5777;
+    margin-top: -0.5rem;
+    font-size: 0.26rem;
+    text-align: center;
+    line-height: 0.5rem;
+    font-family: "微软雅黑";
+}
+
+
+
+
+
+
+
+
+
+#footda{
+    background-color:#6c6155;
+    justify-content: space-around;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#foot{
+    margin: 0 0.28rem;
+    height: 1.6rem;
+}
+.foot_item{
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    float: left;
+    color: #e5d8d8;
+}
+.foot_item h1{
+    font-family: 'iconfont';
+    font-size: 0.8rem;
+}
+.foot_item h2{
+    font-size: 0.4rem;
+}
+.foot_item h2 a{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+

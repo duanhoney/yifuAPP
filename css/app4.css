@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 621815 */
+    src: url('http://at.alicdn.com/t/font_621815_zy8yfa8wb87iudi.eot');
+    src: url('http://at.alicdn.com/t/font_621815_zy8yfa8wb87iudi.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_621815_zy8yfa8wb87iudi.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_621815_zy8yfa8wb87iudi.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_621815_zy8yfa8wb87iudi.svg#iconfont') format('svg');
+}
+.denglu{
+    width: 100%;
+    height: 2rem;
+    /* background-color: red; */
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    text-align: center;
+}
+.dlz{
+    width: 6.5rem;
+    height: 2rem;
+    margin: 0 auto;
+    /* background-color: green; */
+    border-radius: 50px;
+    margin-top: 1rem;
+    background-color: rgb(245, 142, 83);
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.qqtx{
+    width: 0.23rem;
+    height: 0.23rem;
+    float: left;
+    margin-left: 2.6rem;
+    margin-top: 0.4rem;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.qq{
+    width: 3rem;
+    height: 1rem;
+    font-size: 0.5rem;
+    color: #fff;
+    margin: 0.2rem auto;
+    line-height: 1rem;
+    text-align: center;
+    position: absolute;
+    top: 0.2rem;
+    left: 0;
+    right: 0;
+}
+.dlwz{
+    width: 7rem;
+    height: 0.33rem;
+    /* background-color: yellow; */
+    margin: 0 auto;
+    margin-top: 3rem;
+    font-size: 0.3rem;
+    text-align: center;
+}
+.mmdl{
+    width: 100%;
+    height: 2rem;
+    /* background-color: red; */
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+.foot_item{
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    float: left;
+}
+.mmdl .shj{
+    font-family: 'iconfont';
+    font-size: 0.8rem;
+    color: red;
+    text-align: center;
+}
+.mmdl .shj1{
+    font-family: 'iconfont';
+    font-size: 0.8rem;
+    color: #67b3ff;
+    text-align: center;
+}
+.mfdl1{
+    margin-top: 0.5rem;
+    font-size: 0.4rem;
+}
